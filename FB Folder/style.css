@@ -1,0 +1,25 @@
+body::before {
+  display: block;
+  content:'';
+  height: 50px;
+
+}
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+.list-group-items {
+  border-bottom: 1px solid #c9c9c9;
+  padding: 10px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.bi {
+  color:#c9c9c9;
+}
